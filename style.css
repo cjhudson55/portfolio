@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pb-8 {
+    padding-bottom: 8rem;
+}
+
+.pr-4 {
+    padding-right: 4rem;
+}
+
+.pl-4 {
+    padding-left: 4rem;
+}
+
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.pt-8 {
+    padding-top: 8rem;
+}
+
+.px-1 {
+    padding: 0 1rem;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.container {
+    background-color: #f5f5f5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo-styles {
+    font-size: 4rem;
+}
+
+.nav-styles {
+    display: flex;
+    padding: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    color: darkgrey;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.nav-items-styles {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.nav-items {
+    padding: 1rem;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-items a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    color: rgba(253, 82, 161, 0.785);
+}
+
+.fa-bars {
+    font-size: 3rem;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* add display: inline-block; to stop the h1 filling the line  */
+h1 {
+    letter-spacing: 7px;
+    border-style: solid;
+    padding: 1.5rem 1rem;
+    border-width: 2px;
+    margin: 6rem 0 4rem 0;
+    display: inline-block;
+}
+
+/* add display: block; to force to next line */
+h4 {
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.about:hover h4 {
+    letter-spacing: 10px;
+    font-style: italic;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+
+}
+
+.title-1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5rem;
+}
+
+.title-2 {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.inline-h5 {
+    display: inline;
+}
+
+.para-style {
+    font-size: 1.8rem;
+}
+
+.details-style {
+    /* border: 1px;
+    border-top: 1px; */
+    /* border-bottom: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid; */
+    background-color: white;
+}
+
+.border-line {
+    border-width: 1px;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.button-style {
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    color: grey;
+}
+
+/* Forces the next block to a new line - note DO NEED TO HAVE THE DISPLAY TABLE */
+/* .row {
+        display: inline-flex;
+        flex-wrap: wrap;
+     } */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Negative margin on image to get rid of small gap at bottom of image */
+img {
+    max-width: 100%;
+    margin-bottom: -3.8px;
+}
+
+.box {
+    padding: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box-about {
+    padding: 4rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Image will be responsive (i.e. keep correct scale), but will become larger than its actual width. height: auto; means the height will automtically adjust as the width changes to maintain the original aspect ratio */
+
+[class*="col-"] {
+    float: left;
+    /* padding: 2rem; */
+}
+
+.menu-item {
+    color: transparent;
+}
+
+.menu-item:hover {
+    opacity: 60%;
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+
+/* ------------------------ MEDIA QUERIES ------------------------- */
+
+/* Set all classes starting with 'col-' to 100% - i.e. this is the default as we are coding for mobile first. 
+However if the screen width is > 768px, then set up the column widths as follows */
+
+/* For mobile */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For desktop */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* if the screen size is between 768 and 1100 pixels, reduce the font size on the images, but when the images drop to 100% viewport width, it goes back to the bigger size */
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .menu-item:hover {
+        font-size: 1.6rem;
+    }
+}
+
+/* if the screen size is < 1000 pixels, display menu, else display hamburger */
+
+@media only screen and (max-width: 1000px) {
+    .navbar-full {
+        display: none;
+    }
+    .nav-items-styles {
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (min-width: 1000px) {
+    .navbar-small {
+        display: none;
+    }
+    .nav-items-styles {
+        flex-direction: row;
+    }
+}
