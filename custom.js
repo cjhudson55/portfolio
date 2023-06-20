@@ -112,7 +112,14 @@ function showDetails3() {
             <div class="box">
                 <h5 class="title-1 inline-h5">03. </h5>
                 <h5 class="title-2 inline-h5">Flur Pastry Shop</h5>
-                <p class="para-style mt-2">Salty Pidgin is an upmarket suburban restaurant.</p>
+                <p class="para-style mt-2">Flur Pastry Shop is a boutique patisserie and catering business.</p>
+                <br><br>
+                <a href="https://github.com/cjhudson55/summative4Pastry" target="_blank">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+                <a href="https://summative4-pastry.vercel.app/#/" target="_blank" class="pl-2 para-style nav-to-site">
+                    Go to website
+                </a>
             </div>
         </div>   
         <div class="col-12 pt-4 border-line">
