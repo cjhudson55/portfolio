@@ -18,13 +18,13 @@ function showDetails1() {
             </button>
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image1.png" alt="">
+            <img src="/assets/mockup-final/north-1.png" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image2.png" alt="">
+            <img src="/assets/mockup-final/north-2.png" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image3.png" alt="">
+            <img src="/assets/mockup-final/north-3.png" alt="">
         </div>
         <div class="col-12 pb-4">
             <div class="box">
@@ -100,7 +100,7 @@ function showDetails3() {
             </button>
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image2.png" alt="">
+            <img src="/assets/mockup-final/flur-1.png" alt="">
         </div>
         <div class="col-4 px-1">
             <img src="/assets/image3.png" alt="">
