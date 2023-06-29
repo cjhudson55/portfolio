@@ -2,10 +2,14 @@ const chooseProj1 = document.getElementById("arrow1");
 const chooseProj2 = document.getElementById("arrow2");
 const chooseProj3 = document.getElementById("arrow3");
 
+const chooseProj1ByTitle = document.getElementById("title2-01");
+
 // add event listeners to all the arrows
 chooseProj1.addEventListener('click', showDetails1);
 chooseProj2.addEventListener('click', showDetails2);
 chooseProj3.addEventListener('click', showDetails3);
+
+chooseProj1ByTitle.addEventListener('click, showDetails1');
 
 // function to display the details of project 1
 function showDetails1() {
@@ -59,13 +63,13 @@ function showDetails2() {
             </button>
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image3.png" alt="">
+            <img src="/assets/mockup-final/salty2.png" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image1.png" alt="">
+            <img src="/assets/mockup-final/salty4.png" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image2.png" alt="">
+            <img src="/assets/mockup-final/salty2.png" alt="">
         </div>
         <div class="col-12 pb-4">
             <div class="box">
@@ -100,13 +104,13 @@ function showDetails3() {
             </button>
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/mockup-final/flur-1.png" alt="">
+            <img src="/assets/flur1.jpg" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image3.png" alt="">
+            <img src="/assets/mockup-final/flur3.png" alt="">
         </div>
         <div class="col-4 px-1">
-            <img src="/assets/image1.png" alt="">
+            <img src="/assets/mockup-final/MU-flur2.png" alt="">
         </div>
         <div class="col-12 pb-4">
             <div class="box">
